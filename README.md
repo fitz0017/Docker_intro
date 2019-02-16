@@ -3,13 +3,13 @@ Basic Exercises to get up to speed with Docker CE
 
 **Pre-req to have Docker installed locally**
 
-This guide is intended to assist you with basic understanding of containers, how they are built and how they run.  Open a terminal on your computer to follow the guide.
+This guide is intended to assist you with basic understanding of containers, how they are built and how they run.  Open a terminal on your computer to follow the guide.  We will first pull down a public Nginx web server image and run it locally.  Then see how we go about building our own image based off of it, and running it.
 
 ##  Step 1 - What is an Image?
 
 Step 1.1 
 
-A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container.
+A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container.  For our demo purposes, we will be using the Nginx image, which is a web server/reverse proxy.
 
 `docker pull nginx` </br>
 
@@ -18,7 +18,7 @@ A Docker image is a file, comprised of multiple layers, used to execute code in 
 </details>
 <br/>
 
-Docker will check to see if you have `mysql` image stored locally, and if not goes out to the default public registry to pull down the latest version of the `nginx` image.  You can see it being pulled down layer by layer and stored locally on your docker host. 
+Docker will check to see if you have `nginx` image stored locally, and if not goes out to the default public registry to pull down the latest version of the `nginx` image.  You can see it being pulled down layer by layer and stored locally on your docker host. 
 
 Step 1.2 
 
