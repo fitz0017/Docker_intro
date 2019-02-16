@@ -78,7 +78,7 @@ Step 2.4
 </details>
 <br/>
 
-## Step 3 - How do you build an image to run?
+## Step 3 - How do you build an image?
 
 The key component in building an image is the Dockerfile.  This is how you will set the parameters, commands to run, and input source code into the image you wish to create.  We will build a very simple customized nginx image to show how this works.  The instructions below will work if you are running on a Mac, if running Windows you may need to make adjustments.
 
