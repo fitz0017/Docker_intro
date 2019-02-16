@@ -9,7 +9,7 @@ This guide is intended to assist you with basic understanding of containers, how
 
 Step 1.1 
 
-A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container.  For our demo purposes, we will be using the Nginx image, which is a web server/reverse proxy.
+A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container.  It is a read-only template for running containers. For our demo purposes, we will be using the Nginx image, which is a web server/reverse proxy.
 
 `docker pull nginx` </br>
 
