@@ -9,6 +9,8 @@ This guide is intended to assist you with basic understanding of containers, how
 
 Step 1.1 
 
+A Docker image is a file, comprised of multiple layers, used to execute code in a Docker container.
+
 `docker pull nginx` </br>
 
 <details><summary>Screenshot 1.1 </summary>
