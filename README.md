@@ -18,7 +18,7 @@ A Docker image is a file, comprised of multiple layers, used to execute code in 
 </details>
 <br/>
 
-Docker will check to see if you have `nginx` image stored locally, and if not goes out to the default public registry to pull down the latest version of the `nginx` image.  You can see it being pulled down layer by layer and stored locally on your docker host. 
+Docker will check to see if you have `nginx` image stored locally, and if not, goes out to the default public registry to pull down the latest version of the `nginx` image.  You can see it being pulled down layer by layer and stored locally on your docker host. 
 
 Step 1.2 
 
